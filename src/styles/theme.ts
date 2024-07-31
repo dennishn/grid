@@ -13,6 +13,17 @@ const theme = extendTheme(
 			heading: "var(--font-nunito)",
 			body: "var(--font-nunito)",
 		},
+		styles: {
+			global: {
+				"html, body, #__next": {
+					height: "100%",
+				},
+				html: {
+					overscrollBehavior: "none",
+					overflow: "hidden",
+				},
+			},
+		},
 	},
 );
 
